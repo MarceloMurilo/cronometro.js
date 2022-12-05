@@ -1,0 +1,57 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.max-width {
+    margin-top: 10rem;
+    max-width: 300px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #7e6b6b;
+    text-align: center;
+    border-radius: 3px;
+
+}
+
+button {
+    padding: 6px;
+    font-family: monospace, 'Courier New', Courier, monospace;
+    transition: all .5s;
+    cursor: pointer;
+    border-radius: 15px;
+    color: aliceblue;
+    border: none;
+    margin-bottom: 15px;
+}
+
+#button-i {
+    background-color: rgb(128, 204, 97);
+}
+
+#button-p {
+    background-color: rgb(207, 142, 126);
+}
+
+#button-pp {
+    background-color: rgb(134, 49, 49);
+}
+
+/*Pressionando botão */
+#button-i:hover {
+    background-color: rgb(61, 83, 52);
+}
+
+#button-p:hover {
+    background-color: rgb(61, 83, 52);
+}
+
+#button-pp:hover {
+    background-color: rgb(61, 83, 52);
+}
+
+#crono {
+    color: aliceblue;
+}
